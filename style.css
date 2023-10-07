@@ -1,0 +1,229 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    object-fit: cover;
+}
+h1,h2,h3,h4,h5{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: lightgray solid 1px;
+    align-items: center;
+    padding-inline: 50px;
+}
+.logo{
+    width: 200px;
+}
+.topbutton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.bottone{
+    background-color: lightgray;
+    color: gray;
+    border-radius:60px;
+}
+.resume{
+    border: gray solid 1px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.t{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+}
+.colonnasinistra{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 20px;
+    padding-inline: 50px;
+}
+.scelta{
+    display: flex;
+    gap: 20px;
+    border-bottom: lightgray solid 1px;
+}
+.scelta p:hover{
+    color: black;
+    padding-bottom:20px;
+}
+.uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.elemento1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.elemento2{
+    text-align: start;
+}
+h6{
+    margin-left: 10px;
+}
+.elemento3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.underbar{
+    text-align: start;
+}
+.colonnadestra{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 50px;
+    border-left: lightgray solid 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.colonnadestra div{
+    padding-block: 10px;
+    margin-bottom: 10px;
+}
+.badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.immaginidex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.img3{
+    width: 50px;
+}
+.img4{
+    width: 50px;
+    background-color: transparent;
+}
+.img5{
+    display: flex;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-block: 30px;
+}
+button{
+    border-radius: 50px;
+    border-color: lightgray;
+    background-color: transparent;
+
+}
+.collegamento{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    border-radius: 50px;
+    margin-block: 20px;
+}
+a{
+    color: gray;
+}
+.topic a{
+    color: black;
+    text-align: center;
+    border-radius: 50px;
+    background-color: lightgray;
+    width: 25%;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.underbar a{
+    color: gray;
+    text-align: center;
+    border-radius: 50px;
+    background-color: lightgray;
+    width: 10%;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.topic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: left;
+    text-align: center;
+    border-top:lightgray solid 1px;
+    margin-top: 10px;
+}
+h4{
+    text-align: start;
+}
+.segui{
+    display: flex;
+    justify-content:space-between;
+    text-align: start;
+    align-items: center;
+    height:100px;
+}
+.segui button{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}   
+.badge2{
+    display: flex;
+    justify-content: center;
+    text-align: unset;
+}
+.recently{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-bottom: 10px;
+}
+h6{
+    color: green;
+}
+.underlink{
+    width: 300px;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: transparent;
+    text-decoration: none;
+
+}
